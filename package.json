@@ -1,0 +1,29 @@
+{
+  "name": "sequelize-sequenced",
+  "version": "1.0.0",
+  "description": "Sequelize plugin to generate scoped sequential IDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dallasread/sequelize-sequenced.git"
+  },
+  "keywords": [
+    "sequelize",
+    "sequence",
+    "sequenced"
+  ],
+  "author": "Dallas Read",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dallasread/sequelize-sequenced/issues"
+  },
+  "homepage": "https://github.com/dallasread/sequelize-sequenced#readme",
+  "devDependencies": {
+    "sequelize": "^3.15.1",
+    "should": "^8.0.2",
+    "sqlite3": "^3.1.1"
+  }
+}
