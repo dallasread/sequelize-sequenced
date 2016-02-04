@@ -1,6 +1,6 @@
 {
   "name": "sequelize-sequenced",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sequelize plugin to generate scoped sequential IDs",
   "main": "index.js",
   "scripts": {

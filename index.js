@@ -19,6 +19,7 @@ module.exports = function(Sequelize) {
 
                     sequelize.model(model.$modelOptions.name.plural).findOne({
                         where: where,
+                        paranoid: false,
                         order: [
                             [key, 'DESC']
                         ],
